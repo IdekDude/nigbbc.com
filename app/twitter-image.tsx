@@ -1,11 +1,10 @@
 import { ImageResponse } from "next/og";
 
-export const runtime = "edge";
 export const alt = "NIGBBC — Nicaraguan Great Big Brown Cigars";
 export const size = { width: 1200, height: 600 };
 export const contentType = "image/png";
 
-export default function TwitterImage() {
+export default async function TwitterImage() {
   return new ImageResponse(
     (
       <div

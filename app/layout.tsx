@@ -56,15 +56,6 @@ export const metadata: Metadata = {
     title: "NIGBBC — Nicaraguan Great Big Brown Cigars",
     description:
       "Premium handcrafted Nicaraguan cigars. Bold, brown, and unforgettable. Rolled by master torcedores in Estelí. Shop the full NIGBBC collection.",
-    images: [
-      {
-        url: "/opengraph-image",
-        width: 1200,
-        height: 630,
-        alt: "NIGBBC — Nicaraguan Great Big Brown Cigars",
-        type: "image/png",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -73,7 +64,6 @@ export const metadata: Metadata = {
     title: "NIGBBC — Nicaraguan Great Big Brown Cigars",
     description:
       "Bold. Brown. Unforgettable. Premium Nicaraguan cigars handrolled in Estelí. Aged 3+ years in Spanish cedar.",
-    images: ["/twitter-image"],
   },
   alternates: {
     canonical: BASE_URL,
