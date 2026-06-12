@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import AgeVerification from "./components/AgeVerification";
 
 const BASE_URL = "https://nigbbc.com";
 
@@ -76,11 +77,6 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: BASE_URL,
-  },
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-    ],
   },
   verification: {
     google: "add-your-google-search-console-token-here",
@@ -213,7 +209,10 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="min-h-full flex flex-col antialiased">{children}</body>
+      <body className="min-h-full flex flex-col antialiased">
+        <AgeVerification />
+        {children}
+      </body>
     </html>
   );
 }
