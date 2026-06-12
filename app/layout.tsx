@@ -199,7 +199,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="min-h-full flex flex-col antialiased">
+      <body className="min-h-full flex flex-col antialiased bg-[#070502]">
         <AgeVerification />
         {children}
       </body>
